@@ -1,4 +1,5 @@
 import React from 'react';
+import { ValidatorForm } from 'react-form-validator-core';
 
 class Register extends React.Component {
     constructor(props) {
