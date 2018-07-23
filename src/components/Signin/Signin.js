@@ -1,5 +1,4 @@
 import React from 'react';
-import { ValidatorForm } from 'react-form-validator-core';
 
 class Signin extends React.Component {
     constructor(props) {
@@ -38,12 +37,6 @@ class Signin extends React.Component {
     render () {
         const { onRouteChange} = this.props;
         return (
-            <ValidatorForm
-            ref="form"
-            onSubmit={this.handleSubmit}
-            >
-
-            </ValidatorForm>
             <article className="br3 ba dark-gray b--white-10 mv4 w-100 w-50-m w-25-l shadow-5 mw6 center">
                 <main className="pa4 white-80">
                     <div className="measure">
